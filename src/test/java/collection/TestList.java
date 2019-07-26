@@ -1,6 +1,6 @@
 package collection;
 
-import com.akikun.CollectionUtils;
+import com.akikun.utils.CollectionUtils;
 import com.google.common.collect.ImmutableList;
 import data.Gender;
 import data.Person;
@@ -13,7 +13,7 @@ public class TestList
 {
     /**
      * 测试list对象去重
-     * @see com.akikun.CollectionUtils#distinct(List, Function)
+     * @see CollectionUtils#distinct(List, Function)
      */
     @Test
     public void test_distinct()

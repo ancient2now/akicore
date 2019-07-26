@@ -8,6 +8,10 @@ public class Person
 
     private int age;
 
+    public Person()
+    {
+    }
+
     public Person(String name, Gender gender, int age)
     {
         this.name = name;

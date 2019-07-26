@@ -22,6 +22,12 @@
 # IDEA #
 *.iml
 /.idea
+/target
+
+# eclipse #
+.classpath
+.project
+.settings/
 
 # eclipse #
 .classpath

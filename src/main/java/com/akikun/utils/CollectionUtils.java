@@ -1,4 +1,4 @@
-package com.akikun;
+package com.akikun.utils;
 
 import com.google.common.collect.ImmutableList;
 
@@ -43,6 +43,8 @@ public class CollectionUtils
      * @param list
      * @param <E>
      * @return
+     *
+     * test -> collection.TestList#test_distinct
      */
     public static <E, U extends Comparable<? super U>> List<E> distinct(List<E> list,
                                                                         Function<? super E, ? extends U> keyExtractor)
