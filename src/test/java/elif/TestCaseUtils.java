@@ -1,6 +1,6 @@
 package elif;
 
-import com.akikun.utils.CaseUtils;
+import com.akikun.akicore.utils.CaseUtils;
 import com.google.common.collect.Lists;
 import org.junit.Test;
 

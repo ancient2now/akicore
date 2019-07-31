@@ -1,6 +1,6 @@
 package collection;
 
-import com.akikun.utils.CollectionUtils;
+import com.akikun.akicore.utils.CollectionUtils;
 import com.google.common.collect.ImmutableList;
 import data.Gender;
 import data.Person;

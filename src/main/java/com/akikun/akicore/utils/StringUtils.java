@@ -1,6 +1,6 @@
-package com.akikun.utils;
+package com.akikun.akicore.utils;
 
-public class StrUtils
+public class StringUtils extends org.apache.commons.lang3.StringUtils
 {
     /**
      * 将字符串按照多少间隔切分, 插入分隔字符串, 重新组成新的字符串
@@ -12,7 +12,7 @@ public class StrUtils
      */
     public static String recombineStrByInterval(String str, int interval, String splitStr)
     {
-        if (str == null || str.length() == 0)
+        if (isEmpty(str))
         {
             return null;
         }
@@ -27,7 +27,7 @@ public class StrUtils
             {
                 end = len;
             }
-            sb.append(str.substring(start, end)).append(splitStr);
+            sb.append(substring(str, start, end)).append(splitStr);
             start = end;
         }
         return sb.toString();

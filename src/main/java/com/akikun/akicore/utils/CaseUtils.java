@@ -1,6 +1,6 @@
-package com.akikun.utils;
+package com.akikun.akicore.utils;
 
-import com.akikun.elif.Ant;
+import com.akikun.akicore.elif.Ant;
 
 public class CaseUtils
 {

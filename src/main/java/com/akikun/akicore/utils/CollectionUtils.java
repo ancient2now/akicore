@@ -1,4 +1,4 @@
-package com.akikun.utils;
+package com.akikun.akicore.utils;
 
 import com.google.common.collect.ImmutableList;
 

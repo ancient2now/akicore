@@ -1,4 +1,4 @@
-package com.akikun.elif;
+package com.akikun.akicore.elif;
 
 public class Ant
 {
