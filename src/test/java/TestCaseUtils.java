@@ -1,5 +1,3 @@
-package elif;
-
 import com.akikun.akicore.utils.CaseUtils;
 import com.google.common.collect.Lists;
 import org.junit.Test;

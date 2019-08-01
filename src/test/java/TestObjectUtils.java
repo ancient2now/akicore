@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestObjectUtils
 {
     @Test
-    public void TestEquals01()
+    public void Test_equals_01()
     {
         Person p = new Person();
         p.setName("Peter");

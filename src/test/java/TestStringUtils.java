@@ -1,5 +1,3 @@
-package String;
-
 import com.akikun.akicore.utils.StringUtils;
 import org.junit.Test;
 

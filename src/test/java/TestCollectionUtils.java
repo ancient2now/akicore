@@ -1,5 +1,3 @@
-package collection;
-
 import com.akikun.akicore.utils.CollectionUtils;
 import com.google.common.collect.ImmutableList;
 import data.Gender;
@@ -9,7 +7,7 @@ import org.junit.Test;
 import java.util.List;
 import java.util.function.Function;
 
-public class TestList
+public class TestCollectionUtils
 {
     /**
      * 测试list对象去重
