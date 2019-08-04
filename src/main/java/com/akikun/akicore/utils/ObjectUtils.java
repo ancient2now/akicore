@@ -24,4 +24,25 @@ public class ObjectUtils extends org.apache.commons.lang3.ObjectUtils
         // return u.equals(Optional.of(t).map(keyExtractor).orElse(null));
         return Objects.equals(keyExtractor.apply(t), u);
     }
+
+    /**
+     * 返回第一个不是null的对象
+     *
+     * @param values
+     * @return
+     */
+    public static <T> boolean hasNull(final T... values)
+    {
+        if (values != null)
+        {
+            for (final T val : values)
+            {
+                if (val == null)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
